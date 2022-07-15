@@ -1,0 +1,20 @@
+mydict={"name":"chakradhar","phno":1234567890}
+print(mydict)
+print(mydict["name"])
+print(mydict.get("phno"))
+print(mydict.keys())
+print(mydict.values())
+print(mydict.items())
+dictionary_inside_dictionary={"details":{"firstname":"Chakradhar","lastname":"Matety"},"phno":1234567890}
+print(dictionary_inside_dictionary["details"])
+print(dictionary_inside_dictionary["details"]["firstname"])
+print(dictionary_inside_dictionary.get("details").get("lastname"))
+mydict.popitem()
+print(mydict)
+dictionary_inside_dictionary.pop("phno")
+print(dictionary_inside_dictionary)
+dictionary_inside_dictionary["phno"] = 9876543210
+print(dictionary_inside_dictionary)
+print("----------------")
+mydict3=dictionary_inside_dictionary.copy()
+print(mydict3)

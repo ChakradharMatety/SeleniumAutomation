@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20220702 06:46:22.898" rpa="false">
+<suite id="s1" name="Postrequest" source="C:\Users\dell\PycharmProjects\pythonProject\mydirectory\postrequest.robot">
+<test id="s1-t1" name="testcasePostreq:">
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>post</arg>
+<arg>${baseurl}</arg>
+</arguments>
+<msg timestamp="20220702 06:46:25.165" level="INFO">Creating Session using : alias=post, url=https://reqres.in, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20220702 06:46:25.165" endtime="20220702 06:46:25.166"></status>
+</kw>
+<kw name="Load JSON From File" library="JSONLibrary">
+<doc>Load JSON from file.</doc>
+<arguments>
+<arg>${Json_Path}</arg>
+</arguments>
+<assign>
+<var>${input_json}</var>
+</assign>
+<msg timestamp="20220702 06:46:25.168" level="INFO">${input_json} = {'name': 'Swati', 'job': 'QA'}</msg>
+<status status="PASS" starttime="20220702 06:46:25.167" endtime="20220702 06:46:25.168"></status>
+</kw>
+<kw name="POST On Session" library="RequestsLibrary">
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<arguments>
+<arg>post</arg>
+<arg>${endpoint}</arg>
+<arg>${input_json}</arg>
+</arguments>
+<assign>
+<var>${response}</var>
+</assign>
+<msg timestamp="20220702 06:46:25.955" level="INFO">POST Request : url=https://reqres.in/api/users 
+ path_url=/api/users 
+ headers={'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '17', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ body=name=Swati&amp;job=QA 
+ </msg>
+<msg timestamp="20220702 06:46:25.956" level="INFO">POST Response : url=https://reqres.in/api/users 
+ status=201, reason=Created 
+ headers={'Date': 'Sat, 02 Jul 2022 01:16:26 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '77', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"4d-SubWfM+a2APPL8W0mTwfippfd1A"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=x4RkzWMALPv2yBaBDDsP%2FSVK3B0pn%2FSZj4J53QAwNzC3Gdquke%2FCkDR%2FJ3rfxGfUhvbWgQm1vEaqRl9edfQ%2BUKX06%2BaPNOOMI3lss%2BM3eWVp5FNyIukOtJvDKty%2BTgi%2BxG2dvCYrjQ%3D%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '7243893929df79e6-HYD'} 
+ body={"name":"Swati","job":"QA","id":"107","createdAt":"2022-07-02T01:16:26.759Z"} 
+ </msg>
+<msg timestamp="20220702 06:46:25.956" level="INFO">c:\users\dell\appdata\local\programs\python\python38-32\lib\site-packages\urllib3\connectionpool.py:1043: InsecureRequestWarning: Unverified HTTPS request is being made to host 'reqres.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  warnings.warn(</msg>
+<msg timestamp="20220702 06:46:25.974" level="INFO">${response} = &lt;Response [201]&gt;</msg>
+<status status="PASS" starttime="20220702 06:46:25.169" endtime="20220702 06:46:25.974"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${response.json()}</arg>
+</arguments>
+<status status="PASS" starttime="20220702 06:46:25.975" endtime="20220702 06:46:25.976"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${response.status_code}</arg>
+</arguments>
+<status status="PASS" starttime="20220702 06:46:25.977" endtime="20220702 06:46:25.978"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${response.content}</arg>
+</arguments>
+<status status="PASS" starttime="20220702 06:46:25.978" endtime="20220702 06:46:25.979"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${response.json()}</arg>
+</arguments>
+<assign>
+<var>${response_body}</var>
+</assign>
+<msg timestamp="20220702 06:46:25.981" level="INFO">${response_body} = {'name': 'Swati', 'job': 'QA', 'id': '107', 'createdAt': '2022-07-02T01:16:26.759Z'}</msg>
+<status status="PASS" starttime="20220702 06:46:25.980" endtime="20220702 06:46:25.981"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${response.status_code}</arg>
+<arg>201</arg>
+</arguments>
+<msg timestamp="20220702 06:46:25.982" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" starttime="20220702 06:46:25.982" endtime="20220702 06:46:25.982"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${response_body['name']}</arg>
+<arg>Swati</arg>
+</arguments>
+<status status="PASS" starttime="20220702 06:46:25.983" endtime="20220702 06:46:25.984"></status>
+</kw>
+<kw name="Get Value From Json" library="JSONLibrary">
+<doc>Get Value From JSON using JSONPath</doc>
+<arguments>
+<arg>${response_body}</arg>
+<arg>$.name</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20220702 06:46:26.060" level="INFO">${name} = ['Swati']</msg>
+<status status="PASS" starttime="20220702 06:46:25.985" endtime="20220702 06:46:26.060"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20220702 06:46:26.061" endtime="20220702 06:46:26.062"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${input_json}</arg>
+</arguments>
+<status status="PASS" starttime="20220702 06:46:26.062" endtime="20220702 06:46:26.063"></status>
+</kw>
+<status status="PASS" starttime="20220702 06:46:25.164" endtime="20220702 06:46:26.063" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20220702 06:46:22.901" endtime="20220702 06:46:26.076"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Postrequest">Postrequest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

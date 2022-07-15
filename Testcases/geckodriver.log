@@ -1,0 +1,400 @@
+1655057064399	geckodriver	INFO	Listening on 127.0.0.1:51001
+1655057067748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51002" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilezdO8eY"
+1655057076794	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51002
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilezdO8eY\\search.json.mozlz4", (void 0)))
+1655057102662	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+[Parent 9424, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 9424, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1655057132779	geckodriver	INFO	Listening on 127.0.0.1:51038
+1655057135829	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51039" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileKw9nbK"
+1655057137547	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51039
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileKw9nbK\\search.json.mozlz4", (void 0)))
+1655057142585	Marionette	INFO	Listening on port 51063
+DevTools listening on ws://localhost:51039/devtools/browser/4eb6e00a-aa90-4bf2-b996-5da6a6d57fcf
+Read port: 51063
+1655057143146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6188473808538246, line 241: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+1655057156979	Marionette	INFO	Stopped listening on port 51063
+[Parent 10564, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1655057172213	geckodriver	INFO	Listening on 127.0.0.1:51153
+1655057175263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51154" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileYon47Z"
+1655057176398	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51154
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileYon47Z\\search.json.mozlz4", (void 0)))
+1655057181192	Marionette	INFO	Listening on port 51177
+DevTools listening on ws://localhost:51154/devtools/browser/aee8c07e-9f7d-449a-8362-a37d51a5d50e
+Read port: 51177
+1655057181293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6188473808538246, line 241: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/CnoZAs8LLGLdiZmvwH5JG-0Ol-GPeQ_utKIi1OQFCbs.js line 2 > eval line 7606 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655057192568	Marionette	INFO	Stopped listening on port 51177
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1655057203946	geckodriver	INFO	Listening on 127.0.0.1:51267
+1655057206993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51268" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilejglEGf"
+1655057207503	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51268
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilejglEGf\\search.json.mozlz4", (void 0)))
+1655057212420	Marionette	INFO	Listening on port 51294
+DevTools listening on ws://localhost:51268/devtools/browser/ddb1858d-a9c6-4da2-882e-5567e12f21d3
+Read port: 51294
+1655057212537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6188473808538246, line 241: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+1655057219306	Marionette	INFO	Stopped listening on port 51294
+[Parent 4984, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=<unknown IPC msg name>) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWindowGlobal::Msg_SetContainerFeaturePolicy) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1655057283396	geckodriver	INFO	Listening on 127.0.0.1:51378
+1655057286446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51379" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile9jurTd"
+1655057286973	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51379
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile9jurTd\\search.json.mozlz4", (void 0)))
+1655057291220	Marionette	INFO	Listening on port 51403
+DevTools listening on ws://localhost:51379/devtools/browser/27262501-e4c0-4027-9887-74c2602fa3ce
+Read port: 51403
+1655057291328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6188473808538246, line 241: uncaught exception: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+1655057298170	Marionette	INFO	Stopped listening on port 51403
+[Parent 10716, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=<unknown IPC msg name>) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWindowGlobal::Msg_SetContainerFeaturePolicy) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_RequestContextAfterDOMContentLoaded) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=<unknown IPC msg name>) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWindowGlobal::Msg_SetContainerFeaturePolicy) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\dell\AppData\Local\Temp\rust_mozprofile9jurTd\protections.sqlite
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
