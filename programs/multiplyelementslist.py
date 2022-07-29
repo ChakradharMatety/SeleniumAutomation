@@ -1,5 +1,5 @@
-# listele = [50,2,1000,90]
-# # print(listele[0]*listele[1]*listele[2])
+listele = [50,2,1000,90]
+print(listele[0]*listele[1]*listele[2])
 # max=listele[0]
 # min=listele[0]
 #

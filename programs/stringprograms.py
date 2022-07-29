@@ -9,8 +9,8 @@
 # val = 1234567890
 # print(str(val)[::-1])
 # print()
-# name ="chakradhar how are you"
-# print(name[::-1])
+name ="chakradhar how are you"
+print(name[::-1])
 # print()
 #
 # # Contactinate two strings

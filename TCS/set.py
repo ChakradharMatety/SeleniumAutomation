@@ -25,24 +25,24 @@ print(mehtaset)
 mehtaset.remove(31)
 print(mehtaset)
 
-mehtaset.discard(31)
+mehtaset.discard(38)
 print(mehtaset)
-
-mehtaset.discard(3)
-print(mehtaset)
-
-print(len((ektaset)))
-
-mehtaset.clear()
-print(mehtaset)
-
-ektacopy=ektaset.copy()
-print(ektacopy)
-
-set1=set([3,"Chakrdhar",True])
-print(set1)
-set2=set((1,"EktaMehta",78,True))
-print(set2)
+#
+# mehtaset.discard(3)
+# print(mehtaset)
+#
+# print(len((ektaset)))
+#
+# mehtaset.clear()
+# print(mehtaset)
+#
+# ektacopy=ektaset.copy()
+# print(ektacopy)
+#
+# set1=set([3,"Chakrdhar",True])
+# print(set1)
+# set2=set((1,"EktaMehta",78,True))
+# print(set2)
 
 ektasetsss={1,2,"EktaMehta",False}
 print(ektasetsss)

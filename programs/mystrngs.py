@@ -1,16 +1,17 @@
-# str = "_chakradhar person_"
+str = "_chakradhar person_"
 
 
-# print(len(str))
-# for i in range(len(str)):
-#      print(str[(len(str)-1)-i],end="")
+print(len(str))
+for i in range(len(str)):
+     print(str[(len(str)-1)-i],end="")
 # prefix='_'
 # suffix='-'
 # print(str.startswith(prefix))
 # print(str.endswith(suffix))
 # print(str.count('a'))
-# mylists = [1,2,3,4,5]
-# print(mylists.reverse())
+mylists = [1,2,3,4,5]
+revlist=mylists.reverse()
+print(revlist)
 
 # str = 'chakra'
 # print(len(str))

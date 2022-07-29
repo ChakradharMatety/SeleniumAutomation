@@ -1,11 +1,11 @@
-dict={"Hero":"Chakri","Heroin":"Ekta"}
-print(dict)
-print(type(dict))
-print(dict["Heroin"])
-print(dict.get("Hero"))
-dictnew={"Hero":"Chakri","Heroin":["Ekta","Shivani"]}
-print(dictnew["Heroin"])
-print(dictnew["Heroin"][0])
+# dict={"Hero":"Chakri","Heroin":"Ekta"}
+# print(dict)
+# print(type(dict))
+# print(dict["Heroin"])
+# print(dict.get("Hero"))
+# dictnew={"Hero":"Chakri","Heroin":["Ekta","Shivani"]}
+# print(dictnew["Heroin"])
+# print(dictnew["Heroin"][0])
 dictinsidedict={"Hero":"Chakri","Heroin":{"Mylove":"Ekta","MyKeep":"Shivani"}}
 print(dictinsidedict.get("Heroin").get("Mylove"))
 print(dictinsidedict["Heroin"]["MyKeep"])

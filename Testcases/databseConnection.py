@@ -14,6 +14,25 @@ employee=[("chakra",9000),("chakri",9000),("chakram",9000)]
 mycursor.executemany(query,employee)
 mydb.commit()
 
+mycursor.execute("select name from tablename")
+results= mycursor.fetchone()
+
+for row in results:
+    print(row,'\n')
+
+query= "insert into employee(name,sal) value(%s,%s)"
+employees =[("chakra",9000),("chakri",10000),("chakram",18000)]
+mycursor.executemany(query,employees)
+mydb.commit()
+
+queryupd="UPDATE employee SET sal=12000 where name='chakri'"
+mycursor.execute(queryupd)
+mydb.commit()
+
+delquery ="Delete from employee where name='chakra'"
+mycursor.execute(delquery)
+mydb.commit()
+
 # SELECT *from tablename
 # SELECT *from tablename ORDER BY user_id
 # SELECT name,agr from tablename
@@ -35,3 +54,10 @@ mydb.commit()
 # SELECT *FROM leftTable LEFT JOIN rightTable ON leftTable.id=rightTable.id
 # SELECT *FROM leftTable RIGHT JOIN rightTable ON leftTable.id=rightTable.id
 # SELECT *FROM leftTable FULL JOIN rightTable ON leftTable.id=rightTable.id
+# select *from customers left join orders on customers.customerNumber=orders.customerNumber where status='In Process'
+# order by customers.customerNumber ASC|DESC
+# select *from customers inner join orders on customers.customerNumber=orders.customerNumber where status='In Process'
+# select *from customers left join orders on customers.customerNumber=orders.customerNumber where status='In Process'
+# select city from customers left join orders on customers.customerNumber=orders.customerNumber
+# where status='In Process'
+# select *from customers right join orders on customers.customerNumber=orders.customerNumber where status='In Process';
